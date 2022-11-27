@@ -1,0 +1,156 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* nav start  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 18px;
+
+}
+
+.nav-element ul {
+    margin-left: 10px;
+}
+
+.nav-element ul>li {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+
+}
+
+/* start section start  */
+
+.start-container {
+    display: flex;
+    margin-left: 123px;
+    margin-top: 26px;
+}
+
+.start-detail {
+    width: 80%;
+}
+
+.start-detail h2 {
+    font-size: 40px;
+}
+
+.pre-book {
+    margin-top: 47px;
+    width: 196px;
+    height: 44px;
+}
+
+.start-detail a {
+
+    text-decoration: none;
+    padding: 8%;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 41px;
+    font-weight: 800;
+}
+
+.start-pic {
+    width: 440px;
+    height: 414px;
+}
+
+.start-pic img {
+    width: 100%;
+}
+
+/* start section end  */
+
+
+/* products secton starts  */
+
+.all-products {
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+
+}
+
+.product-title {
+    text-align: center;
+    margin-bottom: 87px;
+}
+
+.product {
+    width: 233px;
+    height: 395px;
+
+    box-shadow: 2px 2px 1px gray, -2px -2px 3px gray;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+
+.details {
+    margin-top: -18px;
+}
+
+.rating {
+    display: flex;
+    margin-top: -18px;
+}
+
+.rating-two {
+    margin-left: 10px;
+}
+
+.nice {
+    color: gold;
+
+}
+
+/* footer  */
+
+.foot-container {
+    margin-top: 103px;
+    width: 1114px;
+    height: 239px;
+    background-color: #0A0826;
+    color: white;
+
+
+}
+
+.foot-details,
+.social-link {
+
+    text-align: center;
+    color: white;
+}
+
+.foot-details h2 {
+    margin-top: 10px;
+}
+
+.social-link a {
+    color: white;
+    margin-left: 10px;
+}
+
+.social-link a:hover {
+    color: #E02C6D;
+
+}
